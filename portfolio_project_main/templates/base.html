@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body { font-family: Arial; margin: 0; }
+        header, footer { background: #222; color: white; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .content { padding: 30px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Adarsh Portfolio</h2>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+    </nav>
+</header>
+
+<div class="content">
+    {% block content %}
+    {% endblock %}
+</div>
+
+<footer>
+    <p>© 2025 My Portfolio</p>
+</footer>
+
+</body>
+</html>
